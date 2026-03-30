@@ -1,0 +1,21 @@
+{
+    "nome_dataset": "quadro_medalhas_olimpicas",
+    "descricao": "Quadro consolidado de medalhas olímpicas 1896–2024, compatível com o formato Wikipédia.",
+    "fontes_origem": [
+        "bronze/medalhas_1896_2024.parquet"
+    ],
+    "operacao": "groupby NOC + join Summer × Winter",
+    "arquivos_gerados": [
+        "medalhas_summary.csv",
+        "medalhas_verao.csv",
+        "medalhas_inverno.csv",
+        "medalhas_total.csv",
+        "top50_verao.png",
+        "top50_inverno.png",
+        "top50_total.png"
+    ],
+    "periodo_coberto": "1896–2024",
+    "data_processamento": "2026-03-30",
+    "camada": "gold",
+    "versao": "1.0"
+}

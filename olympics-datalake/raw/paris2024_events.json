@@ -1,0 +1,51 @@
+{
+    "nome_dataset": "paris2024_events",
+    "arquivo_origem": "events.csv",
+    "fonte": "Kaggle — Paris 2024 Olympic Summer Games — https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games",
+    "descricao": "Catálogo de todos os eventos disputados nos Jogos de Paris 2024, com esporte, código e URL oficial.",
+    "campos_principais": [
+        {
+            "nome": "event",
+            "tipo": "string",
+            "descricao": "Nome do evento"
+        },
+        {
+            "nome": "tag",
+            "tipo": "string",
+            "descricao": "Tag identificadora"
+        },
+        {
+            "nome": "sport",
+            "tipo": "string",
+            "descricao": "Nome do esporte"
+        },
+        {
+            "nome": "sport_code",
+            "tipo": "string",
+            "descricao": "Código do esporte (3 letras)"
+        },
+        {
+            "nome": "sport_url",
+            "tipo": "string",
+            "descricao": "URL oficial na página das Olimpíadas"
+        }
+    ],
+    "periodo_coberto": "2024 (Paris)",
+    "formato": "CSV",
+    "delimitador": ",",
+    "codificacao": "utf-8",
+    "quantidade_linhas": 329,
+    "quantidade_colunas": 5,
+    "colunas_reais": [
+        "event",
+        "tag",
+        "sport",
+        "sport_code",
+        "sport_url"
+    ],
+    "data_coleta": "2026-03-30",
+    "camada": "raw",
+    "caminho": "olympics-datalake/raw/paris2024_events.csv",
+    "observacoes": "Pode ser usado como tabela de dimensão para enriquecer os resultados.",
+    "versao": "1.0"
+}

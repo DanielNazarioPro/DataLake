@@ -1,0 +1,107 @@
+{
+    "nome_dataset": "paris2024_athletes",
+    "arquivo_origem": "athletes.csv",
+    "fonte": "Kaggle — Paris 2024 Olympic Summer Games — https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games",
+    "descricao": "Dados completos dos atletas participantes dos Jogos Olímpicos de Paris 2024, incluindo informações biográficas e pessoais.",
+    "campos_principais": [
+        {
+            "nome": "code",
+            "tipo": "int",
+            "descricao": "ID do atleta"
+        },
+        {
+            "nome": "name",
+            "tipo": "string",
+            "descricao": "Nome completo"
+        },
+        {
+            "nome": "gender",
+            "tipo": "string",
+            "descricao": "Gênero (Male/Female)"
+        },
+        {
+            "nome": "country_code",
+            "tipo": "string",
+            "descricao": "Código NOC do país"
+        },
+        {
+            "nome": "country",
+            "tipo": "string",
+            "descricao": "Nome abreviado do país"
+        },
+        {
+            "nome": "disciplines",
+            "tipo": "string",
+            "descricao": "Modalidades disputadas"
+        },
+        {
+            "nome": "events",
+            "tipo": "string",
+            "descricao": "Eventos específicos"
+        },
+        {
+            "nome": "birth_date",
+            "tipo": "date",
+            "descricao": "Data de nascimento"
+        },
+        {
+            "nome": "height",
+            "tipo": "float",
+            "descricao": "Altura em metros"
+        },
+        {
+            "nome": "weight",
+            "tipo": "float",
+            "descricao": "Peso em kg"
+        }
+    ],
+    "periodo_coberto": "2024 (Paris)",
+    "formato": "CSV",
+    "delimitador": ",",
+    "codificacao": "utf-8",
+    "quantidade_linhas": 11113,
+    "quantidade_colunas": 36,
+    "colunas_reais": [
+        "code",
+        "current",
+        "name",
+        "name_short",
+        "name_tv",
+        "gender",
+        "function",
+        "country_code",
+        "country",
+        "country_long",
+        "nationality",
+        "nationality_long",
+        "nationality_code",
+        "height",
+        "weight",
+        "disciplines",
+        "events",
+        "birth_date",
+        "birth_place",
+        "birth_country",
+        "residence_place",
+        "residence_country",
+        "nickname",
+        "hobbies",
+        "occupation",
+        "education",
+        "family",
+        "lang",
+        "coach",
+        "reason",
+        "hero",
+        "influence",
+        "philosophy",
+        "sporting_relatives",
+        "ritual",
+        "other_sports"
+    ],
+    "data_coleta": "2026-03-30",
+    "camada": "raw",
+    "caminho": "olympics-datalake/raw/paris2024_athletes.csv",
+    "observacoes": "Contém informações ricas como hobbies, filosofia e parentes esportistas. Algumas colunas são texto livre.",
+    "versao": "1.0"
+}

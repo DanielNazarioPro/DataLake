@@ -1,0 +1,63 @@
+{
+    "nome_dataset": "paris2024_medals_total",
+    "arquivo_origem": "medals_total.csv",
+    "fonte": "Kaggle — Paris 2024 Olympic Summer Games — https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games",
+    "descricao": "Quadro total de medalhas dos Jogos de Paris 2024, agregado por país.",
+    "campos_principais": [
+        {
+            "nome": "country_code",
+            "tipo": "string",
+            "descricao": "Código NOC (3 letras)"
+        },
+        {
+            "nome": "country",
+            "tipo": "string",
+            "descricao": "Nome abreviado do país"
+        },
+        {
+            "nome": "country_long",
+            "tipo": "string",
+            "descricao": "Nome completo do país"
+        },
+        {
+            "nome": "Gold Medal",
+            "tipo": "int",
+            "descricao": "Medalhas de ouro"
+        },
+        {
+            "nome": "Silver Medal",
+            "tipo": "int",
+            "descricao": "Medalhas de prata"
+        },
+        {
+            "nome": "Bronze Medal",
+            "tipo": "int",
+            "descricao": "Medalhas de bronze"
+        },
+        {
+            "nome": "Total",
+            "tipo": "int",
+            "descricao": "Total de medalhas"
+        }
+    ],
+    "periodo_coberto": "2024 (Paris)",
+    "formato": "CSV",
+    "delimitador": ",",
+    "codificacao": "utf-8",
+    "quantidade_linhas": 92,
+    "quantidade_colunas": 7,
+    "colunas_reais": [
+        "country_code",
+        "country",
+        "country_long",
+        "Gold Medal",
+        "Silver Medal",
+        "Bronze Medal",
+        "Total"
+    ],
+    "data_coleta": "2026-03-30",
+    "camada": "raw",
+    "caminho": "olympics-datalake/raw/paris2024_medals_total.csv",
+    "observacoes": "Apenas Jogos de Verão. Deve ser integrado ao histórico para análise completa.",
+    "versao": "1.0"
+}

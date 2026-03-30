@@ -1,0 +1,87 @@
+{
+    "nome_dataset": "hist_athlete_bio",
+    "arquivo_origem": "world_olympedia_olympics_athlete_bio.csv",
+    "fonte": "Base dos Dados / Olympedia — https://basedosdados.org/dataset/62f8cb83-ac37-48be-874b-b94dd92d3e2b",
+    "descricao": "Dados biográficos dos atletas olímpicos históricos: nome, sexo, data de nascimento, altura, peso e país.",
+    "campos_principais": [
+        {
+            "nome": "athlete_id",
+            "tipo": "int",
+            "descricao": "ID único do atleta"
+        },
+        {
+            "nome": "name",
+            "tipo": "string",
+            "descricao": "Nome do atleta"
+        },
+        {
+            "nome": "sex",
+            "tipo": "string",
+            "descricao": "Sexo (Male / Female)"
+        },
+        {
+            "nome": "birth_date",
+            "tipo": "date",
+            "descricao": "Data de nascimento"
+        },
+        {
+            "nome": "birth_year",
+            "tipo": "int",
+            "descricao": "Ano de nascimento"
+        },
+        {
+            "nome": "height",
+            "tipo": "float",
+            "descricao": "Altura em cm"
+        },
+        {
+            "nome": "weight",
+            "tipo": "float",
+            "descricao": "Peso em kg"
+        },
+        {
+            "nome": "country",
+            "tipo": "string",
+            "descricao": "Nome do país"
+        },
+        {
+            "nome": "country_noc",
+            "tipo": "string",
+            "descricao": "Código NOC (3 letras)"
+        },
+        {
+            "nome": "description",
+            "tipo": "string",
+            "descricao": "Descrição adicional"
+        },
+        {
+            "nome": "special_notes",
+            "tipo": "string",
+            "descricao": "Notas especiais"
+        }
+    ],
+    "periodo_coberto": "1896–2022",
+    "formato": "CSV",
+    "delimitador": ",",
+    "codificacao": "utf-8",
+    "quantidade_linhas": 155861,
+    "quantidade_colunas": 11,
+    "colunas_reais": [
+        "athlete_id",
+        "name",
+        "sex",
+        "birth_date",
+        "birth_year",
+        "height",
+        "weight",
+        "country",
+        "country_noc",
+        "description",
+        "special_notes"
+    ],
+    "data_coleta": "2026-03-30",
+    "camada": "raw",
+    "caminho": "olympics-datalake/raw/hist_athlete_bio.csv",
+    "observacoes": "Muitos campos biográficos podem estar nulos para atletas antigos.",
+    "versao": "1.0"
+}

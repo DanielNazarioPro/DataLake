@@ -1,0 +1,22 @@
+{
+    "nome_dataset": "medalhas_1896_2024",
+    "descricao": "Quadro de medalhas unificado por país e edição, cobrindo todos os Jogos de Verão e Inverno de 1896 a 2024.",
+    "operacao": "UNION ALL entre hist_game_medal_tally e paris2024_medals_total após padronização de colunas",
+    "fontes_origem": [
+        "raw/hist_game_medal_tally.csv",
+        "raw/paris2024_medals_total.csv"
+    ],
+    "colunas_chave": [
+        "NOC",
+        "edition",
+        "season"
+    ],
+    "quantidade_linhas": 1899,
+    "formato": [
+        "CSV",
+        "Parquet"
+    ],
+    "data_processamento": "2026-03-30",
+    "camada": "bronze",
+    "versao": "1.0"
+}

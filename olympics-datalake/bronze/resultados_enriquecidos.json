@@ -1,0 +1,22 @@
+{
+    "nome_dataset": "resultados_enriquecidos",
+    "descricao": "Resultados históricos por atleta e evento, enriquecidos com dados biográficos (sexo, ano de nascimento, altura, peso).",
+    "operacao": "LEFT JOIN entre hist_athlete_event_result e hist_athlete_bio pela chave athlete_id",
+    "fontes_origem": [
+        "raw/hist_athlete_event_result.csv",
+        "raw/hist_athlete_bio.csv"
+    ],
+    "colunas_chave": [
+        "athlete_id",
+        "edition",
+        "event"
+    ],
+    "quantidade_linhas": 316834,
+    "formato": [
+        "CSV",
+        "Parquet"
+    ],
+    "data_processamento": "2026-03-30",
+    "camada": "bronze",
+    "versao": "1.0"
+}

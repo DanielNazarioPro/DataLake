@@ -1,0 +1,21 @@
+{
+    "nome_dataset": "atletas_paris2024_eventos",
+    "descricao": "Atletas de Paris 2024 com o código do esporte principal associado via catálogo de eventos.",
+    "operacao": "LEFT JOIN entre paris2024_athletes e paris2024_events pela coluna sport",
+    "fontes_origem": [
+        "raw/paris2024_athletes.csv",
+        "raw/paris2024_events.csv"
+    ],
+    "colunas_chave": [
+        "athlete_id",
+        "sport_principal"
+    ],
+    "quantidade_linhas": 11113,
+    "formato": [
+        "CSV",
+        "Parquet"
+    ],
+    "data_processamento": "2026-03-30",
+    "camada": "bronze",
+    "versao": "1.0"
+}
